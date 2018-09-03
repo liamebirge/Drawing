@@ -1,0 +1,171 @@
+body{
+	background-color: #b5b5b5;
+	color:black;
+}
+header{
+	text-align: center;
+}
+footer{
+	width:97%;
+	padding:20px;
+	margin:0px;
+	background-color: none;
+	text-align: center;
+}
+nav{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding:5px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+nav a{
+	width:33%;
+	padding:5px;
+	margin:0px;
+	padding-left: auto;
+	padding-right: auto;
+	align-self: center;
+	color:black;
+	text-decoration: none;
+	text-align: center;
+}
+nav a:hover{
+	color:black;
+	background: linear-gradient(to right, #b5b5b5, #7c7c7c, #7c7c7c, #7c7c7c, #b5b5b5);
+}
+.parallax{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:-10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding:10px;
+	min-height: 200px;
+}
+#parallax1 { 
+	background-image: url("../Data/Drawings/drawing3_1.jpg");
+	background-position: left center;
+	height: 500px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+#parallax1 a{
+	color:white;
+	width:100px;
+	height:20px;
+	text-align: center;
+}
+#parallax1 a:hover{
+	color:grey;
+}
+#parallax2{
+	background-image: url("../Data/Photos/img (42).JPG");
+	background-position: left center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+a#ig{
+	background-image: url(Data/Icons/insta.png);
+}
+a#eMail{
+	background-image: url(Data/Icons/email.png);
+}
+a#ig:hover{
+	background-image: url(Data/Icons/instaHover.png);
+	cursor: pointer;
+}
+a#eMail:hover{
+	background-image: url(Data/Icons/emailHover.png);
+	cursor: pointer;
+}
+#paraText{
+	margin:30px;
+	width:200px;
+	text-align: center;
+	color:darkgrey;
+}
+#indexAboutMe{
+	margin:50px;
+	width:97%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#indexAboutMe h5{
+	align-self: flex-start;
+}
+#indexAbout{
+	text-align: center;
+	width:350px;
+	margin-top:20px;
+	margin:10px;
+}
+#indexAbout p{
+	color:#7c7c7c;
+	font-size: 18px;
+}
+#indexAboutAside img{
+	height:auto;
+	width:260px;
+	margin:20px;
+}
+#indexAboutAside p{
+	width:260px;
+	text-align: center;
+	margin:20px;
+	margin-top:5px;
+}
+@media screen and (min-width: 600px) {
+    section#indexSection {
+        display: flex;
+        flex-direction: column;
+    }
+}
+#indexAboutPortfolio{
+	width:97%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:20px;
+}
+#indexAboutPortfolio img{
+	height:300px;
+	width:auto;
+	margin:20px;
+}
+#portfolioAbout{
+	width:300px;
+	text-align: center;
+}
+#portfolioAbout p{
+	color:#7c7c7c;
+	font-size: 18px;
+}
+#portfolioAbout button{
+	height:30px;
+	width:150px;
+	border:1px solid grey;
+	background-color: darkgrey;
+	border-radius: 3px;
+}
+#portfolioAbout button:hover{
+	border-color: darkgrey;
+	background-color: grey;
+	cursor: pointer;
+}
+img.indexImage {
+	border-radius: 3px;
+}
